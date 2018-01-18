@@ -1,0 +1,103 @@
+*{
+	border solid 1px blue;
+}
+
+body{
+	background-image: url("circles-dark/circles-dark.png");
+}
+
+.page-header{
+	float: left;
+	margin:0px 0px 0px 100px;
+	border: none;
+}
+
+.name{
+	background-color:#4aaaa5;
+	padding: 15px;
+	margin-bottom: -10px;
+}
+.navbar{
+	background-color: white;
+	height: 10%;
+}
+
+.nav{
+	float: right;
+	margin-right: 25px;
+}
+.active{
+	background-color:#4aaaa5;
+}
+
+.col-lg-6{
+	background-color: white;
+	padding: 10px;
+}
+
+.col-lg-3{
+	background-color: white;
+	text-align: center;
+	padding: 15px;
+}
+
+.picture{
+	float: left;
+	margin-right: 15px;
+}
+
+
+footer{
+	clear: both;
+	text-align: center;
+	background-color: #666666;
+	height:70px;
+	margin:25px -10px -10px -10px;
+	border-top:#4aaaa5;
+	border-top-width: 10px;
+	border-top-style: solid;
+	line-height: 70px;
+	color: #777777;
+	margin-top: 30px; }
+
+
+@media screen and (max-width: 1400px){
+	.col-lg-6{
+		margin-bottom: 15px;
+	}
+	
+
+
+
+@media screen and (max-width: 768px) and (min-width: 641px){
+	.col-lg-6{
+		width:100%;
+		margin-bottom: 5%;
+	}
+	.col-lg-3{
+		width:100%;
+	}
+}
+
+@media screen and (max-width: 640px){
+	.picture{width: 50%;
+	}
+	p{
+		width: 100%;
+	}
+	.col-lg-6{
+	margin-bottom: 5%;
+	width:100%;
+	text-align: center;
+	}
+	.col-lg-3{
+
+	margin:auto;
+	width: 100%;
+	}
+
+}
+
+
+
+
